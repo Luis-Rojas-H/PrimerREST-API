@@ -4,10 +4,11 @@ const morgan = require('morgan')
 
 // settings
 app.set('port', process.env.PORT || 3000)
+app.set('json spaces', 2)
 
 // routes
 app.get('/', (req, res) => {
-    res.send('Hello word')
+    res.json({"title": "Hello Word"})
 })
 
 // middlewares
