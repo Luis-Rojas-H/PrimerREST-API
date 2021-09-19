@@ -1,0 +1,24 @@
+{
+  "name": "PrimerREST-API",
+  "version": "1.0.0",
+  "description": "Primer REST API usando Node.js, PostMan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-Rojas-H/PrimerREST-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-Rojas-H/PrimerREST-API/issues"
+  },
+  "homepage": "https://github.com/Luis-Rojas-H/PrimerREST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
