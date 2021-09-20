@@ -8,7 +8,7 @@ app.set('json spaces', 2)
 
 // routes
 app.use(require('./routes/index'))
-app.use(require('./routes/movies'))
+app.use('/api/movies', require('./routes/movies'))
 
 // middlewares
 app.use(morgan('dev'))
